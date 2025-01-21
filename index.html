@@ -1,7 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trys  Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #b3b3b3;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #76c7c0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .project {
+            background: #1f1f1f;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .project h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            margin-bottom: 10px;
+        }
+
+        .project a {
+            color: #76c7c0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1f1f1f;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+            color: #b3b3b3;
+        }
+
+        footer a {
+            color: #76c7c0;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Willkommen zu meinem Portfolio</h1>
+        <p>Programmierer | Technik-Enthusiast</p>
+        <nav>
+            <a href="#projects">Projekte</a>
+            <a href="#about">Über mich</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Projekte</h2>
+
+        <div class="project">
+            <h2>Kernel-Treiber</h2>
+            <p>Ein C++ Kernel Driver Mode Projekt zum ändern von Hardwaresignaturen.</p>
+            <a href="https://github.com/Try4646/Kernel-Treiber" target="_blank">Projekt ansehen</a>
+        </div>
+
+        <div class="project">
+            <h2>Account Saver</h2>
+            <p>Eine Windows Forms App in C# zur sicheren Speicherung von Benutzerkonten.</p>
+            <a href="https://github.com/dein-github/account-saver" target="_blank">Projekt ansehen</a>
+        </div>
+
+        <div class="project">
+            <h2>Home Security Camera</h2>
+            <p>Ein Python-Projekt zur Überwachung mit Flask und OpenCV.</p>
+            <a href="https://github.com/dein-github/home-security" target="_blank">Projekt ansehen</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Über mich</h2>
+        <p>Ich bin 16 Jahre alt, wohne in Berlin und habe einen Hauptschulabschluss. Programmieren ist meine Leidenschaft, und ich arbeite gerne an technischen Projekten mit Python c++ und C#. Zurzeit lerne ich Kernel-Programmierung, um mein Wissen weiter auszubauen.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Du kannst mich über folgende Wege erreichen:</p>
+        <ul>
+            <li>E-Mail: <a href="mailto:leonkremser.b46@gmail.com">leonkremser.b46@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/try4646" target="_blank">Try4646</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mein Portfolio</p>
+    </footer>
 </body>
 </html>
